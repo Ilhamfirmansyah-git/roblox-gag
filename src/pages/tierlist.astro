@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { TierList } from '../components/TierList';
+import { AffiliateBanner } from '../components/AffiliateBanner';
+import items from '../data/items.json';
+---
+<BaseLayout
+  title="Steal a Brainrot Tier List Maker — Create & Export | Brainrot Values"
+  description="Create your own Steal a Brainrot tier list. Drag items into S/A/B/C/D tiers and export as an image to share on TikTok and Twitter."
+>
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <h1 class="text-3xl sm:text-4xl font-black mb-2 text-white">
+      Tier List <span class="text-purple-400">Maker</span>
+    </h1>
+    <p class="text-gray-400 mb-8">
+      Drag and drop items into tiers. Export as an image to share on TikTok, Twitter, or Discord.
+    </p>
+
+    <TierList items={items as any} client:load />
+
+    <div class="mt-8">
+      <AffiliateBanner client:load />
+    </div>
+  </div>
+</BaseLayout>
