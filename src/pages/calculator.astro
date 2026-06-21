@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { TradeCalculator } from '../components/TradeCalculator';
+import { AffiliateBanner } from '../components/AffiliateBanner';
+import items from '../data/items.json';
+
+const url = Astro.url;
+const initialItemId = url.searchParams.get('add') || undefined;
+---
+<BaseLayout
+  title="Steal a Brainrot Trade Calculator — Is Your Trade Fair? | Brainrot Values"
+  description="Use our free Steal a Brainrot trade calculator to check if your trade is a WIN, FAIR, or LOSE. Add items to both sides and get an instant verdict."
+>
+  <div class="max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-3xl sm:text-4xl font-black mb-2 text-white">
+      Trade <span class="text-purple-400">Calculator</span>
+    </h1>
+    <p class="text-gray-400 mb-8">
+      Add items to each side of the trade. We'll calculate the value difference and tell you if it's a WIN, FAIR, or LOSE.
+    </p>
+
+    <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6">
+      <TradeCalculator items={items as any} initialItemId={initialItemId} client:load />
+    </div>
+
+    <div class="mt-6 bg-gray-900 border border-gray-800 rounded-xl p-4 text-sm text-gray-400">
+      <strong class="text-gray-300">How it works:</strong> A trade is a WIN if you receive more than 10% extra value, FAIR if within ±10%, and LOSE if you give more than 10% extra value. Values are community estimates — always use your own judgement.
+    </div>
+
+    <div class="mt-6">
+      <AffiliateBanner client:load />
+    </div>
+  </div>
+</BaseLayout>
