@@ -1,0 +1,74 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  ogImage?: string;
+  canonicalUrl?: string;
+  structuredData?: object;
+}
+
+const { title, description, ogImage = '/og-default.png', canonicalUrl, structuredData } = Astro.props;
+const canonical = canonicalUrl || Astro.url.href;
+const siteUrl = 'https://stealbrainrot.com';
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+
+  <!-- Open Graph / Twitter Card -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image" content={`${siteUrl}${ogImage}`} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={`${siteUrl}${ogImage}`} />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Structured Data -->
+  {structuredData && (
+    <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  )}
+</head>
+<body class="bg-gray-950 text-gray-100 min-h-screen flex flex-col">
+  <!-- Navigation -->
+  <header class="bg-gray-900 border-b border-gray-800 sticky top-0 z-50">
+    <nav class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="/" class="text-xl font-black text-purple-400 hover:text-purple-300 transition-colors">
+        🧠 Brainrot Values
+      </a>
+      <div class="flex gap-1 sm:gap-4">
+        <a href="/" class="px-3 py-1.5 text-sm font-semibold rounded hover:bg-gray-800 transition-colors">Value List</a>
+        <a href="/calculator" class="px-3 py-1.5 text-sm font-semibold rounded hover:bg-gray-800 transition-colors">Calculator</a>
+        <a href="/tierlist" class="px-3 py-1.5 text-sm font-semibold rounded hover:bg-gray-800 transition-colors">Tier List</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-1">
+    <slot />
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 border-t border-gray-800 mt-12">
+    <div class="max-w-6xl mx-auto px-4 py-8 text-center text-gray-400 text-sm">
+      <p class="mb-2">
+        <strong class="text-gray-300">Disclaimer:</strong> This is a fan-made site, not affiliated with Roblox Corporation or the creators of Steal a Brainrot. All item values are community estimates and subject to change.
+      </p>
+      <p class="text-xs text-gray-500">
+        © 2024 Brainrot Values · Fan-made tool · Not affiliated with Roblox™
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

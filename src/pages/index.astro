@@ -1,0 +1,76 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { ValueTable } from '../components/ValueTable';
+import { AdSlot } from '../components/AdSlot';
+import { AffiliateBanner } from '../components/AffiliateBanner';
+import items from '../data/items.json';
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "Steal a Brainrot Value List",
+      "url": "https://stealbrainrot.com",
+      "description": "Community value list and trade calculator for Steal a Brainrot Roblox game.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://stealbrainrot.com/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "name": "Steal a Brainrot Item Values",
+      "numberOfItems": items.length,
+      "itemListElement": items.slice(0, 10).map((item, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "name": item.name,
+        "url": `https://stealbrainrot.com/item/${item.id}`
+      }))
+    }
+  ]
+};
+---
+<BaseLayout
+  title="Steal a Brainrot Value List (Updated 2024) | Brainrot Values"
+  description="The most complete Steal a Brainrot value list. Check item values, rarity, demand, and trading trends. Updated by the community."
+  structuredData={structuredData}
+>
+  <div class="max-w-6xl mx-auto px-4 py-8">
+    <div class="lg:flex lg:gap-8">
+      <!-- Main Content -->
+      <div class="flex-1">
+        <h1 class="text-3xl sm:text-4xl font-black mb-2 text-white">
+          Steal a Brainrot <span class="text-purple-400">Value List</span>
+        </h1>
+        <p class="text-gray-400 mb-6">
+          Community-maintained values for every item in Steal a Brainrot. Search, filter, and compare to get the best trades.
+        </p>
+
+        <!-- Affiliate Banner -->
+        <div class="mb-6">
+          <AffiliateBanner client:load />
+        </div>
+
+        <!-- Value Table (React island) -->
+        <ValueTable items={items as any} client:load />
+      </div>
+
+      <!-- Sidebar (desktop only) -->
+      <aside class="hidden lg:block w-64 flex-shrink-0">
+        <div class="sticky top-20 space-y-4">
+          <AdSlot slot="sidebar" className="w-full h-64" label="Advertisement" client:load />
+          <div class="bg-gray-900 border border-gray-800 rounded-xl p-4">
+            <h2 class="font-bold text-white mb-3">Quick Links</h2>
+            <nav class="space-y-2 text-sm">
+              <a href="/calculator" class="block text-purple-400 hover:text-purple-300">🔢 Trade Calculator</a>
+              <a href="/tierlist" class="block text-purple-400 hover:text-purple-300">📊 Tier List Maker</a>
+            </nav>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</BaseLayout>

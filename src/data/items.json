@@ -1,0 +1,222 @@
+[
+  {
+    "id": "tralalero-tralala",
+    "name": "Tralalero Tralala",
+    "rarity": "Brainrot God",
+    "value": 1000000,
+    "demand": 9,
+    "trend": "up",
+    "obtainable": false,
+    "image": "/images/items/placeholder.png",
+    "notes": "PLACEHOLDER — replace with community consensus value."
+  },
+  {
+    "id": "bombardiro-crocodillo",
+    "name": "Bombardiro Crocodillo",
+    "rarity": "Mythic",
+    "value": 500000,
+    "demand": 8,
+    "trend": "up",
+    "obtainable": false,
+    "image": "/images/items/placeholder.png",
+    "notes": "PLACEHOLDER — replace with community consensus value."
+  },
+  {
+    "id": "bombombini-gusini",
+    "name": "Bombombini Gusini",
+    "rarity": "Mythic",
+    "value": 450000,
+    "demand": 7,
+    "trend": "stable",
+    "obtainable": false,
+    "image": "/images/items/placeholder.png",
+    "notes": "PLACEHOLDER — replace with community consensus value."
+  },
+  {
+    "id": "tung-tung-tung-sahur",
+    "name": "Tung Tung Tung Sahur",
+    "rarity": "Legendary",
+    "value": 250000,
+    "demand": 8,
+    "trend": "up",
+    "obtainable": true,
+    "image": "/images/items/placeholder.png",
+    "notes": "PLACEHOLDER — replace with community consensus value."
+  },
+  {
+    "id": "cappuccino-assassino",
+    "name": "Cappuccino Assassino",
+    "rarity": "Legendary",
+    "value": 200000,
+    "demand": 7,
+    "trend": "stable",
+    "obtainable": true,
+    "image": "/images/items/placeholder.png",
+    "notes": "PLACEHOLDER — replace with community consensus value."
+  },
+  {
+    "id": "lirili-larila",
+    "name": "Lirili Larila",
+    "rarity": "Epic",
+    "value": 100000,
+    "demand": 6,
+    "trend": "up",
+    "obtainable": true,
+    "image": "/images/items/placeholder.png",
+    "notes": "PLACEHOLDER — replace with community consensus value."
+  },
+  {
+    "id": "glorbo-frogini",
+    "name": "Glorbo Frogini",
+    "rarity": "Epic",
+    "value": 75000,
+    "demand": 5,
+    "trend": "down",
+    "obtainable": true,
+    "image": "/images/items/placeholder.png",
+    "notes": "PLACEHOLDER — replace with community consensus value."
+  },
+  {
+    "id": "frigo-camelo",
+    "name": "Frigo Camelo",
+    "rarity": "Rare",
+    "value": 40000,
+    "demand": 5,
+    "trend": "stable",
+    "obtainable": true,
+    "image": "/images/items/placeholder.png",
+    "notes": "PLACEHOLDER — replace with community consensus value."
+  },
+  {
+    "id": "chimpanzini-bananini",
+    "name": "Chimpanzini Bananini",
+    "rarity": "Rare",
+    "value": 30000,
+    "demand": 6,
+    "trend": "up",
+    "obtainable": true,
+    "image": "/images/items/placeholder.png",
+    "notes": "PLACEHOLDER — replace with community consensus value."
+  },
+  {
+    "id": "brr-brr-patapim",
+    "name": "Brr Brr Patapim",
+    "rarity": "Rare",
+    "value": 25000,
+    "demand": 4,
+    "trend": "stable",
+    "obtainable": true,
+    "image": "/images/items/placeholder.png",
+    "notes": "PLACEHOLDER — replace with community consensus value."
+  },
+  {
+    "id": "giraffa-celeste",
+    "name": "Giraffa Celeste",
+    "rarity": "Rare",
+    "value": 20000,
+    "demand": 4,
+    "trend": "down",
+    "obtainable": true,
+    "image": "/images/items/placeholder.png",
+    "notes": "PLACEHOLDER — replace with community consensus value."
+  },
+  {
+    "id": "crocodillo-porpora",
+    "name": "Crocodillo Porpora",
+    "rarity": "Common",
+    "value": 5000,
+    "demand": 3,
+    "trend": "stable",
+    "obtainable": true,
+    "image": "/images/items/placeholder.png",
+    "notes": "PLACEHOLDER — replace with community consensus value."
+  },
+  {
+    "id": "patapim-verde",
+    "name": "Patapim Verde",
+    "rarity": "Common",
+    "value": 3000,
+    "demand": 2,
+    "trend": "down",
+    "obtainable": true,
+    "image": "/images/items/placeholder.png",
+    "notes": "PLACEHOLDER — replace with community consensus value."
+  },
+  {
+    "id": "bananini-classico",
+    "name": "Bananini Classico",
+    "rarity": "Common",
+    "value": 2000,
+    "demand": 2,
+    "trend": "stable",
+    "obtainable": true,
+    "image": "/images/items/placeholder.png",
+    "notes": "PLACEHOLDER — replace with community consensus value."
+  },
+  {
+    "id": "frogini-basic",
+    "name": "Frogini Basic",
+    "rarity": "Common",
+    "value": 1000,
+    "demand": 1,
+    "trend": "down",
+    "obtainable": true,
+    "image": "/images/items/placeholder.png",
+    "notes": "PLACEHOLDER — replace with community consensus value."
+  },
+  {
+    "id": "assassino-elite",
+    "name": "Assassino Elite",
+    "rarity": "Secret",
+    "value": 750000,
+    "demand": 9,
+    "trend": "up",
+    "obtainable": false,
+    "image": "/images/items/placeholder.png",
+    "notes": "PLACEHOLDER — replace with community consensus value."
+  },
+  {
+    "id": "sahur-supremo",
+    "name": "Sahur Supremo",
+    "rarity": "Legendary",
+    "value": 180000,
+    "demand": 6,
+    "trend": "stable",
+    "obtainable": true,
+    "image": "/images/items/placeholder.png",
+    "notes": "PLACEHOLDER — replace with community consensus value."
+  },
+  {
+    "id": "celeste-raro",
+    "name": "Celeste Raro",
+    "rarity": "Epic",
+    "value": 60000,
+    "demand": 5,
+    "trend": "up",
+    "obtainable": true,
+    "image": "/images/items/placeholder.png",
+    "notes": "PLACEHOLDER — replace with community consensus value."
+  },
+  {
+    "id": "porpora-antico",
+    "name": "Porpora Antico",
+    "rarity": "Rare",
+    "value": 15000,
+    "demand": 3,
+    "trend": "down",
+    "obtainable": true,
+    "image": "/images/items/placeholder.png",
+    "notes": "PLACEHOLDER — replace with community consensus value."
+  },
+  {
+    "id": "verde-comune",
+    "name": "Verde Comune",
+    "rarity": "Common",
+    "value": 500,
+    "demand": 1,
+    "trend": "stable",
+    "obtainable": true,
+    "image": "/images/items/placeholder.png",
+    "notes": "PLACEHOLDER — replace with community consensus value."
+  }
+]
