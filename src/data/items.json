@@ -7,7 +7,7 @@
     "demand": 9,
     "trend": "up",
     "obtainable": false,
-    "image": "/images/items/placeholder.png",
+    "image": "/images/items/tralalero-tralala.svg",
     "notes": "PLACEHOLDER — replace with community consensus value."
   },
   {
@@ -18,7 +18,7 @@
     "demand": 8,
     "trend": "up",
     "obtainable": false,
-    "image": "/images/items/placeholder.png",
+    "image": "/images/items/bombardiro-crocodillo.svg",
     "notes": "PLACEHOLDER — replace with community consensus value."
   },
   {
@@ -29,7 +29,7 @@
     "demand": 7,
     "trend": "stable",
     "obtainable": false,
-    "image": "/images/items/placeholder.png",
+    "image": "/images/items/bombombini-gusini.svg",
     "notes": "PLACEHOLDER — replace with community consensus value."
   },
   {
@@ -40,7 +40,7 @@
     "demand": 8,
     "trend": "up",
     "obtainable": true,
-    "image": "/images/items/placeholder.png",
+    "image": "/images/items/tung-tung-tung-sahur.svg",
     "notes": "PLACEHOLDER — replace with community consensus value."
   },
   {
@@ -51,7 +51,7 @@
     "demand": 7,
     "trend": "stable",
     "obtainable": true,
-    "image": "/images/items/placeholder.png",
+    "image": "/images/items/cappuccino-assassino.svg",
     "notes": "PLACEHOLDER — replace with community consensus value."
   },
   {
@@ -62,7 +62,7 @@
     "demand": 6,
     "trend": "up",
     "obtainable": true,
-    "image": "/images/items/placeholder.png",
+    "image": "/images/items/lirili-larila.svg",
     "notes": "PLACEHOLDER — replace with community consensus value."
   },
   {
@@ -73,7 +73,7 @@
     "demand": 5,
     "trend": "down",
     "obtainable": true,
-    "image": "/images/items/placeholder.png",
+    "image": "/images/items/glorbo-frogini.svg",
     "notes": "PLACEHOLDER — replace with community consensus value."
   },
   {
@@ -84,7 +84,7 @@
     "demand": 5,
     "trend": "stable",
     "obtainable": true,
-    "image": "/images/items/placeholder.png",
+    "image": "/images/items/frigo-camelo.svg",
     "notes": "PLACEHOLDER — replace with community consensus value."
   },
   {
@@ -95,7 +95,7 @@
     "demand": 6,
     "trend": "up",
     "obtainable": true,
-    "image": "/images/items/placeholder.png",
+    "image": "/images/items/chimpanzini-bananini.svg",
     "notes": "PLACEHOLDER — replace with community consensus value."
   },
   {
@@ -106,7 +106,7 @@
     "demand": 4,
     "trend": "stable",
     "obtainable": true,
-    "image": "/images/items/placeholder.png",
+    "image": "/images/items/brr-brr-patapim.svg",
     "notes": "PLACEHOLDER — replace with community consensus value."
   },
   {
@@ -117,7 +117,7 @@
     "demand": 4,
     "trend": "down",
     "obtainable": true,
-    "image": "/images/items/placeholder.png",
+    "image": "/images/items/giraffa-celeste.svg",
     "notes": "PLACEHOLDER — replace with community consensus value."
   },
   {
@@ -128,7 +128,7 @@
     "demand": 3,
     "trend": "stable",
     "obtainable": true,
-    "image": "/images/items/placeholder.png",
+    "image": "/images/items/crocodillo-porpora.svg",
     "notes": "PLACEHOLDER — replace with community consensus value."
   },
   {
@@ -139,7 +139,7 @@
     "demand": 2,
     "trend": "down",
     "obtainable": true,
-    "image": "/images/items/placeholder.png",
+    "image": "/images/items/patapim-verde.svg",
     "notes": "PLACEHOLDER — replace with community consensus value."
   },
   {
@@ -150,7 +150,7 @@
     "demand": 2,
     "trend": "stable",
     "obtainable": true,
-    "image": "/images/items/placeholder.png",
+    "image": "/images/items/bananini-classico.svg",
     "notes": "PLACEHOLDER — replace with community consensus value."
   },
   {
@@ -161,7 +161,7 @@
     "demand": 1,
     "trend": "down",
     "obtainable": true,
-    "image": "/images/items/placeholder.png",
+    "image": "/images/items/frogini-basic.svg",
     "notes": "PLACEHOLDER — replace with community consensus value."
   },
   {
@@ -172,7 +172,7 @@
     "demand": 9,
     "trend": "up",
     "obtainable": false,
-    "image": "/images/items/placeholder.png",
+    "image": "/images/items/assassino-elite.svg",
     "notes": "PLACEHOLDER — replace with community consensus value."
   },
   {
@@ -183,7 +183,7 @@
     "demand": 6,
     "trend": "stable",
     "obtainable": true,
-    "image": "/images/items/placeholder.png",
+    "image": "/images/items/sahur-supremo.svg",
     "notes": "PLACEHOLDER — replace with community consensus value."
   },
   {
@@ -194,7 +194,7 @@
     "demand": 5,
     "trend": "up",
     "obtainable": true,
-    "image": "/images/items/placeholder.png",
+    "image": "/images/items/celeste-raro.svg",
     "notes": "PLACEHOLDER — replace with community consensus value."
   },
   {
@@ -205,7 +205,7 @@
     "demand": 3,
     "trend": "down",
     "obtainable": true,
-    "image": "/images/items/placeholder.png",
+    "image": "/images/items/porpora-antico.svg",
     "notes": "PLACEHOLDER — replace with community consensus value."
   },
   {
@@ -216,7 +216,7 @@
     "demand": 1,
     "trend": "stable",
     "obtainable": true,
-    "image": "/images/items/placeholder.png",
+    "image": "/images/items/verde-comune.svg",
     "notes": "PLACEHOLDER — replace with community consensus value."
   }
 ]

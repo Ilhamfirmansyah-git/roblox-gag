@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="gbananiniclassico" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6b7280"/>
+      <stop offset="100%" stop-color="#374151"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="18" fill="url(#gbananiniclassico)"/>
+
+    <path d="M65,160 Q45,120 55,70 Q70,30 100,25 Q130,22 150,50 Q165,75 155,120 Q145,160 120,170 Q95,178 65,160Z" fill="#FFE135"/>
+    <path d="M80,155 Q62,118 70,72 Q82,38 105,32" fill="none" stroke="#DAA520" stroke-width="4" opacity="0.6"/>
+    <path d="M65,160 Q58,168 55,172" fill="none" stroke="#8B6914" stroke-width="6" stroke-linecap="round"/>
+    <path d="M120,170 Q125,175 128,178" fill="none" stroke="#8B6914" stroke-width="6" stroke-linecap="round"/>
+    <path d="M100,25 Q98,15 102,8" fill="none" stroke="#8B6914" stroke-width="6" stroke-linecap="round"/>
+    <path d="M140,155 Q125,130 130,100 Q138,75 155,72 Q165,72 170,88 Q175,105 165,130 Q155,155 140,155Z" fill="#FFE135" opacity="0.8"/>
+    <circle cx="95" cy="95" r="6" fill="#1a1a1a" opacity="0.4"/>
+    <circle cx="115" cy="95" r="6" fill="#1a1a1a" opacity="0.4"/>
+    <path d="M88,112 Q105,122 122,112" fill="none" stroke="#1a1a1a" stroke-width="3" opacity="0.4"/>
+    <circle cx="40" cy="60" r="5" fill="#FFD700" opacity="0.7"/>
+    <circle cx="165" cy="45" r="4" fill="#FFD700" opacity="0.7"/>
+    <text x="100" y="197" font-size="10" text-anchor="middle" fill="white" opacity="0.8" font-family="sans-serif">Bananini Classico</text>
+</svg>
